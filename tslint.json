@@ -3,7 +3,11 @@
     "extends": [
         "tslint:latest", "tslint-react"
     ],
-    "jsRules": {},
-    "rules": {},
+    "jsRules": {
+
+    },
+    "rules": {
+        "quotemark": [true, "single"]
+    },
     "rulesDirectory": []
 }

@@ -7,7 +7,8 @@
     "watch": "webpack -wd",
     "build": "webpack -d",
     "publish": "webpack -p",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development",
+    "test": "jest"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
@@ -21,8 +22,11 @@
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
+    "@types/dotenv": "^4.0.3",
     "@types/react": "^16.4.17",
     "@types/react-dom": "^16.0.9",
+    "dotenv": "^6.1.0",
+    "jest": "^23.6.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "webpack": "^4.20.2"
